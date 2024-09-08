@@ -19,7 +19,7 @@ CARACTERES = {
 class GeradorDeSenhas:
     def __init__(self, root):
         self.janela = root
-        self.janela.title("Gerador de Senhas Ultra Complexas")
+        self.janela.title("Gerador de Senhas")
         self.janela.geometry("600x700")  # Ajustado para mais espaço
         self.janela.configure(bg='#f0f0f0')
 
